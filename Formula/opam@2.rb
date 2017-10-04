@@ -1,8 +1,9 @@
 class OpamAT2 < Formula
   desc "The OCaml package manager v2.0.0 (beta)"
   homepage "https://opam.ocaml.org"
-  url "https://github.com/ocaml/opam/releases/download/2.0.0-beta3/opam-full-2.0.0-beta3.tar.gz"
-  sha256 "83d61052b29e7c08674852f4d607e5403720c5fd85664c3b340acf9a938fd9e6"
+  url "https://github.com/ocaml/opam/releases/download/2.0.0-beta4/opam-full-2.0.0-beta4.tar.gz"
+  sha256 "84b97b67a42840c49425fe90afdd0f9fdc18bbd9"
+  # sha256 "83d61052b29e7c08674852f4d607e5403720c5fd85664c3b340acf9a938fd9e6"
   head "https://github.com/ocaml/opam.git"
 
   depends_on "ocaml" => :recommended
